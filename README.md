@@ -16,4 +16,4 @@ This will alow the WordPress to log more information for subscription errors tha
 
 The debug information can be found in the `debug.log` file or directly in Divi > Support Center > Debug section.
 
-Example of such information: 
+Example of such information: ![image](https://github.com/eduard-ungureanu/et-debug/assets/1719735/b19d4471-189a-4e0a-8755-fad87c4c95bf)
