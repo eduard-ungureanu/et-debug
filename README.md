@@ -6,7 +6,7 @@ For the plugin to be activated, it requires the WP Debugging WordPress plugin to
 
 If the WP Debugging plugin is activated, we can activate the ET Debug as well.
 
-Once both plugins are activate, it uses WordPress CLI to write define the `ET_DEBUG` constant in the `wp-config.php` file. 
+Once both plugins are activate, it uses WordPress CLI to define the `ET_DEBUG` constant in the `wp-config.php` file. 
 
 The `wp-config.php` file should have standard WordPress file permission.
 
