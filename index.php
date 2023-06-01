@@ -12,3 +12,17 @@ Version: 1.0.0
 Author URI: https://github.com/eduard-ungureanu
 */
 
+add_filter(
+	'wp_debugging_add_constants',
+	function( $added_constants ) {
+		$my_constants = [
+			'my_test_constant'      => [
+				'ET_DEBUG' => 'true',
+				'raw'   => false,
+			],
+		];
+		return array_merge( $added_constants, $my_constants );
+	},
+	10,
+	1
+);
